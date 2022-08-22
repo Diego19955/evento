@@ -59,9 +59,7 @@ a {
     min-width: 100px;
 }
 .menu {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    
     gap: 1rem;
 }
 .menu__link {
@@ -88,27 +86,21 @@ a {
     
     
  }
-/* .slider {
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-}
-.slider ul {
-    display: flex;
-    padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite;
-}
-.slider li {
-    list-style: none;
+ #galeria .col-lg-4 {
+    
+    padding: 25px;
+
+ }
+
+ #galeria img {
     width: 100%;
-}
-.slider img {
-    width: 100%; */
-/* } */
- /* .text p {
-    font-family: 'Edu TAS Beginner', cursive;
- } */
+    height: 300px;
+ }
+ #galeria img:hover {
+    border: 5px solid white;
+    
+ }
+
  .box p {
     font-size: 20px;
     
@@ -116,10 +108,7 @@ a {
 .border {
     row-gap: 20px;
 }
- /* #grilla {
-    column-gap: 10px; 
-    row-gap: 25px;
- } */
+ 
 @media (max-width: 768px) {
     .main-header__nav {
     flex-direction: column; 

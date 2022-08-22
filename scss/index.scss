@@ -1,0 +1,37 @@
+.main-header {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    padding: 0.5rem;
+    .main-header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;        
+    }  
+    
+    .main-header__logo {
+        display: block;
+        max-width: 120px;
+        min-width: 100px;
+    }
+}
+
+  
+.menu {    
+    gap: 1rem;
+    .menu__link {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: flex;        
+    }
+    .menu__item {
+        transform: rotate(0deg);
+        display: flex;        
+    }
+    .menu__item:hover{
+        flex-grow: 10;
+    }
+}
+
+
